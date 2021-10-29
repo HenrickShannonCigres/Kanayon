@@ -273,7 +273,6 @@ C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\scopedcss\b
 C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\FinalProjUI.TagHelpers.input.cache
 C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\FinalProjUI.TagHelpers.output.cache
 C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\FinalProjUI.RazorCoreGenerate.cache
-C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\Razor\Views\AboutUs\AboutUS.cshtml.g.cs
 C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -289,3 +288,5 @@ C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\ref\FinalPr
 C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\FinalProjUI.pdb
 C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\FinalProjUI.genruntimeconfig.cache
 C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\FinalProjUI.csproj.CopyComplete
+C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\Razor\Views\Home\AboutUS.cshtml.g.cs
+C:\Users\Henrick Cigres\Desktop\Kanayon\FinalProjUI\obj\Debug\net5.0\Razor\Views\Home\Help.cshtml.g.cs
