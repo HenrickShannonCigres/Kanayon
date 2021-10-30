@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using FinalProjUI.Data;
 using Microsoft.EntityFrameworkCore;
+using FinalProjUI.Models;
 
 namespace FinalProjUI
 {
@@ -27,8 +28,10 @@ namespace FinalProjUI
         {
             services.AddDbContext<ApplicationDbContext>(option =>
                 option.UseSqlServer(Configuration.GetConnectionString("MyConnection")));
+            services.AddDefaultIdentity<ApplicationUser>().AddEntityFrameworkStores<ApplicationDbContext>();
+
             services.AddControllersWithViews();
-            
+            services.AddRazorPages();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -53,9 +56,14 @@ namespace FinalProjUI
 
             app.UseEndpoints(endpoints =>
             {
+            endpoints.MapControllerRoute(
+            name: "MyArea",
+            pattern: "{area:exists}/{controller=Home}/{action=Index}/{id?}");
+
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");
+                endpoints.MapRazorPages();
             });
         }
     }

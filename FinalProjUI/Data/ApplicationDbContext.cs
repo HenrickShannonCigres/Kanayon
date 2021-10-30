@@ -9,13 +9,12 @@ using FinalProjUI.Models;
 
 namespace FinalProjUI.Data
 {
-    public class ApplicationDbContext : DbContext
+    public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext>options)
             : base(options)
         { 
         }
-        //public DbSet<FinalProjUI> FinalProjUIs { get; set; }
-        //creating an entity model week4
+       
     }
 }
